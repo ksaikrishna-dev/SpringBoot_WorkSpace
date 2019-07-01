@@ -1,0 +1,29 @@
+
+****Save-User****
+POST: 	http://localhost:2244/user/saveUser
+
+
+****Update-User****
+PUT:	http://localhost:2244/user/updateUser/2
+
+
+****Get-User-By-Id****
+GET: 	http://localhost:2244/user/getUserById/2
+
+
+****Get-All-Users****
+GET:	http://localhost:2244/user/getUserList
+
+
+****Delete-User****
+DELETE:	http://localhost:2244/user/deleteUser/2
+
+
+
+
+/*
+	 * Custom Query methods
+	 */
+****Get-User-By-Id****
+GET: 	http://localhost:2244/user/getCustomUser/2	 
+	 
